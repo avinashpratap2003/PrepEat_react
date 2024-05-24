@@ -1,0 +1,146 @@
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.navContent{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    background: #F1F4F8;
+
+}
+.navLeft{
+    width: 8%;
+}
+.navLeft img{
+    padding-left: 1rem;
+    width: 6rem;
+}
+.nav-menu{
+    width: 60%;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.nav-menu li a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    color: #000000;
+    transition: 0.4s ease-in-out;
+}
+.nav-menu li{
+    list-style-type: none;
+}
+.nav-menu li a:hover,
+.nav-menu li a.active{
+    color: #FC501A;
+} 
+.nav-menu li a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    background-color:#ff7247;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    transition: width 0.3s;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    border-radius: 50%;
+}
+.nav-menu li a.active::after{
+    transform: scaleX(1);
+}
+.navMiddle{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+}
+.navRight{
+    width: 30%;
+    display: flex;
+}
+.navRight button{
+    width: 7rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    transition: transform 1000ms;
+}
+.navRight button:hover, .navRight button:focus-visible{
+    transform: translateY(7px);
+    transition: transform 250ms;
+}
+
+.navBtn1{
+    background: #E8750B;
+}
+.navBtn2{
+    background: #2A3D07D9;
+}
+
+.humburger{
+    display: none;
+}
+
+@media screen and (max-width:1040px){
+    .nav-menu{
+        padding-left: 1rem;
+        flex-direction: column;
+        justify-content: center;   
+        align-items: start;
+        width: 150px;
+        height: 190px;
+        background: rgba(255, 255, 255, 0.9);
+        position: absolute;
+        top: 2.6rem;
+        right: -100%;
+        z-index: -3;
+        transition: 1s;
+        padding-right: 1rem;
+        border-bottom-left-radius: 20px;
+    }
+    .navRight{
+        display: none;
+    }
+    .nav-menu.active{
+        right: 0.5rem;
+    }
+    .nav-menu li a{
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+    .humburger{
+        display: initial;
+        padding-right: 1rem;
+    }
+    .nav-menu li a:hover {
+        color: #FC501A;
+
+    }
+    .navContent{
+        height: 35px;
+    }
+    .nav-menu li{
+        padding-right: 0;
+        padding-bottom: 0.5rem;
+    }
+}

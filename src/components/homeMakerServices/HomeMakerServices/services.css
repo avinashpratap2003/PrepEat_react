@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.serviceHeading{
+    width: 308px;
+    height: 53px;
+    padding-top: 5rem;
+}
+.serviceHeading p{
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-weight: 700;
+    color: #E8750B;
+}
+.serviceCardName p{
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 20px;
+    color: #013489;
+    padding: 0.5rem;
+}
+.serviceCardPara p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.homeServicesIcons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-block-end: 3rem;
+}
+.homeServiceCardImg img{
+    height: 145px;
+    width: 145px;
+}
+.homeServicesCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns of equal width */
+    grid-row-gap: 3rem;
+    padding: 2rem;
+}
+.homeServicesCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    max-width: 310px;
+    width: 100%;
+}
+
+
+.homeServiceDetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-block-end: 8rem;
+}
+.homeServiceDetailsLeft1 img{
+    max-height: 546px;
+    max-width: 520px;
+    height: 100%;
+    width: 100%;
+}
+.homeServiceDetailsLeft2 img{
+    max-height: 588px;
+    max-width: 624px;
+    width: 100%;
+    height: 100%;
+}
+.homeServiceDetailsLeft1{
+    width: 50%;
+}
+.homeServiceDetailsLeft2{
+    width: 50%;
+}
+.homeServiceDetailsRight{
+    width: 40%;
+    padding-right: 1rem;
+}
+.homeServiceDetailsHeading p{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 36px;
+    color: 
+    #006077;
+    padding-bottom: 1rem;
+}
+.homeServiceDetailsPara{
+    font-weight: 400;
+    font-size: 18px;
+}
+.homeServiceDetailsPara ul li{
+    padding-top: 1.5rem;
+}
+.homeServiceDetailsHeadingResp{
+    display: none;
+}
+
+@media screen and (max-width:767px){
+    .homeServicesContainer{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .homeServicesCard{
+        width: 90%;
+        /* height: fit-content; */
+    }
+    .homeServicesCards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 1rem;
+    }
+    .homeServicesIcons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .serviceCardPara p{
+        font-size: 18px;
+    }
+    .serviceHeading{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 0;
+        padding: 1rem;
+        padding-top: 4rem;
+    }
+    .serviceHeading p{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .homeServiceDetails{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding: 0;
+        margin-block-end: 5rem;
+    }
+    .homeServiceDetailsLeft1{
+        width: auto;
+        padding: 0;
+    }
+    .homeServiceDetailsLeft2{
+        width: auto;
+        padding: 0;
+    }
+    .homeServiceDetailsRight{
+        width: auto;
+        padding: 0;
+    }
+    .homeServiceDetailsHeading{
+        display: none;
+    }
+    .homeServiceDetailsHeadingResp{
+        display: inline;
+    }
+    .homeServiceDetailsHeadingResp p{
+        font-family: Plus Jakarta Sans;
+        font-size: 32px;
+        font-weight: 700;
+        align-items: center;
+        text-align: center;
+        color: #006077;
+    }
+    .homeServiceDetailsPara p{
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+    .homeServiceDetailsLeft1 img{
+        width: 276px;
+        height: 289px;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    .homeServiceDetailsLeft2 img{
+        width: 330px;
+        height: 256px;
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    .homeServiceDetailsPara ul li{
+        padding-top: 0.5rem;
+        font-size: 18px;
+    }
+}

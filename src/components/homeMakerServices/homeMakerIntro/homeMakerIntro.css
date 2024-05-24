@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.homeMakerIntroInnerContainer{
+    width: 100%;
+    max-height: fit-content;
+    /* min-height: 530px; */
+    background-color: #E8750B47;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 7rem;
+}
+.homeMakerIntroText{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homeMakerIntroHeading p{
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.homeMakerIntroPara{
+    width: 80%;
+}
+.homeMakerIntroPara p{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.homeMakerIntroImg img{
+    height: 490px;
+    width: 100%;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+@media screen and (max-width:1040px){
+    .homeMakerIntroInnerContainer{
+        padding-top: 4rem;
+    }
+    .homeMakerIntroText{
+        padding-top: 2rem;
+        padding-left: 1rem;
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .homeMakerIntroHeading p{
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        font-size: 28px;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .homeMakerIntroPara{
+        width: 80%;
+    }
+    .homeMakerIntroPara p{
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+    }
+    .homeMakerIntroImg img{
+        height: 450px;
+        width: 100%;
+        padding-top: 2rem;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:767px){
+    .homeMakerIntroInnerContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 4rem;
+    }
+    .homeMakerIntroText{
+        padding-top: 0;
+        padding-left: 0;
+        width: 90%;
+    }
+    .homeMakerIntroImg img{
+        height: 299px;
+        width: 335px;
+    }
+    .homeMakerIntroHeading{
+        width: 90%;
+    }
+    .homeMakerIntroHeading p{
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 1rem;
+        padding-top: 0;
+    }
+    .homeMakerIntroPara{
+        width: 80%;
+    }
+    .homeMakerIntroPara p{
+        font-weight: 400;
+        font-size: 12px;
+    }
+}

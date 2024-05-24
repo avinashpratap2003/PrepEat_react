@@ -1,0 +1,143 @@
+.downloadAppContainer{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding-block-start: 3rem;
+}
+.downloadAppInnerContainer1{
+
+    width: 96%;
+    /* padding: 3rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background: rgba(241, 244, 248, 1);
+}
+
+.downloadImg img{
+    height: 400px;
+    width: 330px;
+}
+.downloadDetails{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.downloadHeading{
+    color: rgba(252, 80, 26, 1);
+    font-weight: 500;
+    font-size: 48px;
+}
+.downloadSubheading{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 32px;
+}
+.downloadPara{
+    font-weight: 500;
+    font-size: 16px;
+}
+.downloadQR{
+    padding: 1rem;
+}
+.downloadLinks{
+    display: flex;
+    align-items: center;
+}
+.googlePlay img{
+    width: 180px;
+    height: 77px;
+}
+.AppleStore img{
+    width: 180px;
+    height: 57px;
+}
+.downloadIcons img{
+    padding: 1rem;
+}
+.downloadAppInnerContainer2{
+    display: none;
+}
+.downloadContacticon img{
+    padding: 0.4rem;
+}
+
+@media screen and (max-width:767px){
+    .downloadAppInnerContainer1{
+        display: none;
+    }
+    .downloadAppInnerContainer2{
+        display: initial;
+        background-color: #F1F4F8;
+        width: 96%;
+        border-radius: 10px;
+    }
+    .newdownload1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        width: 90%;
+    }
+    .newdownload2{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 40%;
+    }
+    .newdownload3{
+        width: 45%;
+    }
+    .downloadDetails{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .downloadLinks{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .downloadQR img{
+        height: 54px;
+        width: 64px;
+    }
+    .googlePlay img{
+        height: 51px;
+        width: 144px;
+    }
+    .AppleStore img{
+        height: 40px;
+        width: 142px;
+    }
+    .downloadIcons img{
+        width: 20%;
+        padding: 0.4rem;
+    }
+    .downloadImg img{
+        height: 100%;
+        width: 100%;
+        padding-left: 0.5rem;
+    }
+    .downloadHeading p{
+        font-size: 31.66px;
+        font-weight: 700;
+    }
+    .downloadSubheading p{
+        font-size: 21.1px;
+        font-weight: 600;
+    }
+    .downloadPara p{
+        font-weight: 500;
+        font-size: 12px;
+    }
+}

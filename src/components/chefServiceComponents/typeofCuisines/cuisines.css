@@ -1,0 +1,49 @@
+.cuisinesContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuisinesInnerContainer{
+    width: 94%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.cuisinesCard img{
+    max-height: 258;
+    max-width: 286px;
+    height: 100%;
+    width: 100%;
+    /* margin-left: .5rem; */
+    /* margin-right: .5rem; */
+}
+.cuisinesCards{
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+.cuisinesHeading h4{
+    font-weight: 600;
+    font-size: 30px;
+    margin: 3rem;
+}
+
+@media screen and (max-width:767px) {
+    .cuisinesCards{
+        gap: 1rem;
+    }
+    .cuisinesHeading h4{
+        font-size: 18px;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+}

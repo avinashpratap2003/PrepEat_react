@@ -1,0 +1,107 @@
+.servicesContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicesContent{
+    margin-top: 1rem;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #F1F4F8;
+    padding-left: 3rem;
+    border-radius: 10px;
+
+}
+
+.serviceContentLeft{
+    padding-left: 5rem;
+    width: 40%;
+}
+.serviceContentLeft h1{
+    color: #E8750B;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+.serviceContentLeft p{
+    font-weight: 500;
+    font-size: 18px;
+}
+.serviceContentRight{
+    width: 38%;
+    left: 40%;
+    top: 0;
+}
+.serviceImg1{
+    width: 730px;
+    height: 499px;
+}
+.serviceImg2{
+    width: 368px;
+    height: 500px;
+}
+.serviceImg3{
+    width: 433.11px;
+    height: 500px;
+}
+.serviceImg4{
+    position: absolute;
+    width: 445px;
+    height: 507px;
+    top: -2%;
+    left: 10%;
+}
+.serviceLeftBtn button{
+    height: 40px;
+    color: white;
+    width: 120px;
+    border-radius: 40px;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border: none;
+}
+#homemakerCard{
+    position: relative;
+}
+.homemakerBg{
+    position: absolute;
+    width: 342px;
+    height: 440px;
+    background-color: 
+    #06666D;
+    left: 14%;
+    top: 12%;
+    border-top-right-radius: 43%;
+}
+#tiffinservicecard{
+    justify-content: space-between;
+    position: relative;
+}
+.tiffinservicecardBg{
+    position: absolute;
+    height: 410px;
+    width: 369px;
+    background-color: #E8750B;
+    top: 18%;
+    left: 62%;
+    border-top-left-radius: 40%;
+
+}
+#serviceImg01{
+    position: absolute;
+}
+.servicebtn1{
+    background: #E8750B;
+
+}
+.servicebtn2{
+    background: #333333;
+
+}

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap');
+
+
+.dryCleanInnerContainer{
+    padding-block-start: 5rem;
+    background: #87BEC57A;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pricingCards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.twoCardContainer{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+/* .pricingCards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 3rem;
+    width: 90%;
+} */
+
+.pricingCard{
+    height: fit-content;
+    max-width: 550px;
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    border-radius: 10px;
+}
+
+.pricingCardHeader{
+    overflow: hidden;
+    position: relative;
+    max-width: 550px;
+    width: 100%;
+    height: 188px;
+}
+#cardheader1{
+    border-radius: 10px 10px 0 0;
+    background-color: 
+    #87BEC5;
+}
+#cardheader2{
+    border-radius: 10px 10px 0 0;
+    background-color: 
+    #8794B7;
+}
+#cardheader3{
+    border-radius: 10px 10px 0 0;
+    background-color: 
+    #CF6A9D;
+}
+#cardheader4{
+    border-radius: 10px 10px 0 0;
+    background-color: 
+    #EAA700;
+}
+#cardheader5{
+    border-radius: 10px 10px 0 0;
+    background-color: 
+    
+#87BEC5;
+}
+#cardheader6{
+    border-radius: 10px 10px 0 0;
+    background-color: 
+    
+#D2B3BB;
+}
+#cardheader7{
+    border-radius: 10px 10px 0 0;
+    background-color: 
+    #579EAF;
+}
+
+.pricingheaderBgImg1{
+    overflow: hidden;
+    position: absolute;
+    background-size: cover;
+}
+.pricingheaderBgImg1 img{
+    overflow: hidden;
+    background-size: cover;
+}
+.pricingheaderBgImg2 img{
+    overflow: hidden;
+}
+.pricingheaderBgImg2{
+    overflow: hidden;
+    position: absolute;
+}
+.pricingCardImg1{
+    position: absolute;
+    left: 10%;
+    top: 3%;
+}
+.pricingCardImg2{
+    position: absolute;
+    left: 60%;
+    top: 3%;
+}
+.pricingCardImg1 img{
+    width: 185px;
+    height: 185px;
+}
+.pricingCardImg2 img{
+    width: 185px;
+    height: 185px;
+}
+.pricingCardHeading1{
+    width: 274px;
+    height: 139px;
+    position: absolute;
+    text-align: center;
+    left: 49%;
+    top: 15%;
+}
+.pricingCardHeading2{
+    width: 320px;
+    height: 139px;
+    position: absolute;
+    text-align: center;
+    left: 3%;
+    top: 7%;
+}
+.pricingCardHeading1 p{
+    font-size: 56px;
+    font-weight: 800;
+    font-family: plus Jakarta Sans;
+}
+.pricingCardHeading2 p{
+    font-size: 56px;
+    font-weight: 800;
+    font-family: plus Jakarta Sans;
+}
+.pricingCardBody table, tr, td, th{
+    border-collapse: collapse;
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+}
+tbody tr:nth-child(even){
+    background-color: #38A3FE2B;
+
+}
+tr{
+    height: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+th{
+    background-color: #8BCAFF;
+    font-weight: 500;
+    height: 35px;
+    font-size: 16px;
+}
+.pricingCardBody{
+    /* width: 659px; */
+    width: 100%;
+}
+
+/* .pricingcardDetails{
+    display: flex;
+    align-items: center;
+} */
+#pricingcard7{
+    width: 900px;
+}
+#pricingCardBody table, tr, td, th {
+    width: 900px;
+}
+.twoCardContainer{
+    width: 90%;
+}
+
+
+@media screen and (max-width:1040px){
+    .twoCardContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pricingCardHeader{
+        height: 142px;
+    }
+    .pricingCardImg1{
+        left: 8%;
+        top: 16%;
+    }
+    .pricingCardImg1 img{
+        width: 110px;
+        height: 110px;
+    }
+    .pricingCardHeading1{
+        width: 50%;
+        right: 0%;
+        top: 26%;
+    }
+    .pricingCardHeading1 p{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .pricingCardImg2{
+        right: 4%;
+        top: 16%;
+    }
+    .pricingCardImg2 img{
+        width: 110px;
+        height: 110px;
+    }
+    .pricingCardHeading2{
+        width: 50%;
+        left: 3%;
+        top: 26%;
+    }
+    .pricingCardHeading2 p{
+        font-size: 36px;
+        font-weight: 600;
+    }
+}

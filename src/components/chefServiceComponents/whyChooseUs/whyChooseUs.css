@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.chooseusContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.chooseusInnerContainer{
+    width: 96%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chooseusInnerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chooseusContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 94%;
+}
+.chooseusContentRight{
+    margin-bottom: 3rem;
+}
+.chooseusHeading p{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 32px;
+    padding-top: 3rem;
+    line-height: 40.32px;
+}
+.chooseusHeading span{
+    color: #FC501A;
+}
+.chooseusContentLeft img{
+    width: 566px;
+    height: 620px;
+}
+.chooseusContentRight p{
+    font-size: 24px;
+    font-weight: 350;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+}
+.chooseusContentRight li{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 2rem;
+    padding-bottom: 1.5rem;
+}
+.chooseusbottom{
+    width: 90%;
+    height:fit-content;
+    background-color: #FEC7B6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-end: 2rem;
+    padding: 1.5rem;
+}
+.chooseusbottomCards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.chooseusbottomCard{
+    width: 35%;
+    height: 210px;
+    max-width: 180px;
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.chooseusbottomCard p{
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+.chooseusbottomCard h4{
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top :1rem;
+    padding-bottom: 0.5rem;
+}
+.chooseusbottomCard img{
+    width: 75px;
+    height: 75px;
+}
+.chooseusbottomResp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+@media screen and (max-width:1040px) {
+    .chooseusContentLeft{
+        display: none;
+    }
+    .chooseusContentRight p{
+        padding: 1rem;
+        font-size: 18px;
+    }
+    .chooseusContentRight li{
+        padding-bottom: 0.5rem;
+        font-size: 16px;
+    }
+
+    .chooseusbottomCard{
+        height: 150px;
+    }
+    .chooseusbottomCard img{
+        width: 50px;
+        height: 50px;
+    }
+    .chooseusbottomCard p{
+        font-size: 9px;
+    }
+    .chooseusbottomCard h4{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:767px){
+    .chooseusbottomCards{
+        flex-direction: column;
+    }
+    .chooseusbottomResp{
+        width: 90%;
+        padding: 0.5rem;
+    }
+}

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.table1data{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table1, .table1row, .table1H{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.menuInnerContainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-block-end: 3rem;
+}
+.table1H{
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-size: 20px;
+}
+.table1data{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.table1row ,.table1H {
+    width: 14rem;
+    padding: 0.8rem;
+    height: 2rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+.table1data {
+    width: 6rem;
+    padding: 1rem;
+    height: 1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.menuHeading h2{
+    color: #F64E19;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 2rem;
+}
+
+.menuTiming{
+    width: 65%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuContact{
+    display: flex;
+    justify-content: space-between;
+}
+.menuTiming p{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.menuTiming span{
+    padding-bottom: 2rem;
+    font-size: 24px; 
+    font-weight: 500;
+}
+.menuContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    width: 30%;
+}
+
+.menuContact button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10rem;
+    height: 2.9rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    transition: transform 1000ms;
+}
+.contact1{
+    background: #E8750B;
+}
+.contact2{
+    background: #4CAF50;
+}
+.menuContact button:active{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6)
+}
+.menuContact button:hover, .menuContact button:focus-visible, .downloadMenuBtn button:hover, .downloadMenuBtn button:focus-visible{
+    transform: translateY(-7px);
+    transition: transform 250ms;
+}
+.downloadMenuBtn button{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 210px;
+    height: 50px;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background: #04792499;
+    transition: transform 1000ms;
+}
+
+.downloadMenu{
+    display: none;
+}
+
+@media screen and (max-width:1040px){
+    .menuInnerContainer{
+        margin-block-end: 1rem;
+        margin-block-start: 3rem;
+    }
+
+    .menuHeading{
+        display: none;
+    }
+    .menuTable{
+        display: none;
+    }
+    .menuTiming{
+        display: none;
+    }
+    .downloadMenu{
+        display: initial;
+    }
+}

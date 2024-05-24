@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.welcomeContainer{
+    width: 100%;
+    height: 780px
+}
+.welcomeInnerContainer{
+    padding: 2rem;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background: rgba(217, 217, 217, 1);
+
+}
+.welcomeText{
+    position: absolute;
+    width: 39%;
+    top: 242%;
+    left: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.extraContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcomePara p{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 1rem 0 3rem 0;
+
+}
+.welcomebackground {
+    position: absolute;
+    top: -50%;
+    left: 54%;
+    width: 47%;
+    height: 700px;
+    background-color:#E8750B;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.welcomeImg{
+    position: absolute;
+    top: 85%;
+    left: 37%;
+}
+.welcomeImg img{
+    width: 95%;
+    height: 620px;
+    display: flex;
+
+}
+.welcometo{
+    font-family: Playfair Display;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 48px;
+}
+.prep{
+    color: 
+    rgba(171, 0, 0, 1);
+    font-family: Playfair Display;
+    font-weight: 500;
+    font-size: 48px;
+}
+.eat{
+    color: rgba(4, 116, 2, 1);
+    font-family: Playfair Display;
+    font-weight: 500;
+    font-size: 48px;
+}
+.welcomeL1 h1{
+    font-size: 50px;
+    font-size: italic;
+    font-weight: 500;
+}
+.welcomeL2 h1{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 34px;
+}
+.welcomeL3 h1{
+    color: rgba(232, 117, 11, 1);
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 44px;
+}
+.welcomebutton1 button{
+        width: 8rem;
+        height: 3rem;
+        margin-right: 1rem;
+        border: none;
+        border-radius: 40px;
+        color: white;
+        cursor: pointer;
+        transition: transform 1000ms;
+}
+.welcomebutton2 button{
+        width: 8rem;
+        height: 3rem;
+        margin-right: 1rem;
+        border: none;
+        border-radius: 40px;
+        color: white;
+        cursor: pointer;
+        transition: transform 1000ms;
+}
+.welcomebutton1 button:hover, .welcomebutton2 button:focus-visible{
+    transform: translateY(-5px);
+    transition: transform 250ms;
+}
+.welcomebutton2 button:hover, .welcomebutton2 button:focus-visible{
+    transform: translateY(-5px);
+    transition: transform 250ms;
+}
+.welcomebtn1{
+    background-color: #E8750B;
+}
+.welcomebtn2{
+    background-color: rgba(0, 0, 0, 1);
+}
+.welcomeBtns{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+@media screen and (max-width:1040px){
+    .welcomebackground{
+        display: none;
+    }
+    .welcomeImg{
+        display: none;
+    }
+    .welcomeText p{
+        display: none;
+    }
+    .welcomeContainer{
+        width: 100%;
+        height: 450px;
+        background-color:#E8750B;
+    }
+    .welcomeL3 h1{
+        color: white;
+        font-family: Plus Jakarta Sans;
+        font-weight: 700;
+        font-size: 44px;
+    }
+    .welcomeText{
+        width: 80%;
+        align-items: flex-start;
+    }
+    .welcomeBtns{
+        display: flex;
+        flex-direction: column;
+    }
+    .welcomeInnerContainer{
+        padding: 0.8rem;
+    }
+    .extraContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+    .welcometo{
+        font-size: 22px;
+    }
+    .prep{
+        font-size: 22px;
+    }
+    .eat{
+        font-size: 22px;
+    }
+    .welcomeL2 h1{
+        font-size: 18px;
+    }
+    .welcomeL3 h1{
+        font-size: 22px;
+    }
+    .welcomebutton1 button{
+        width: 86px;
+        height: 38px;
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .welcomebutton2 button{
+            width: 125px;
+            height: 38px;
+            color: black;
+            font-size: 12px;
+            font-weight: 500;
+    }
+    .welcomebtn1{
+        background-color: black;
+        margin-bottom: 1rem;
+    }
+    .welcomebtn2{
+        background-color: white;
+    }
+}

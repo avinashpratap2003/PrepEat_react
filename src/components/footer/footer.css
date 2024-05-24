@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.footerContainer{
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(246, 78, 25, 1);
+
+}
+.footerinnerContainer{
+    padding: 3rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerMiddle{
+    display: flex;
+    flex-direction: column;
+}
+.footerMiddle img{
+    padding-top: 1rem;
+}
+
+.footerContainer li{
+    list-style-type: none;
+    padding-top: 1rem;
+}
+.footerinnerContainer li a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 250;
+}
+.footerinnerContainer h3{
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-weight: 250;
+}
+.footerbottom{
+    height: 5rem;
+    width: 80%;
+    background: rgba(30, 30, 30, 1);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.footerIcons img{
+    height: 26px;
+    width: 26px;
+}
+.footerlogo img{
+    height: 32px;
+    width: 107px;
+}
+.footerbottom p{
+    font-size: 16px;
+    font-weight: 350;
+}
+.footerbottomResponsive{
+    display: none;
+}
+
+@media screen and (max-width:1040px){
+    .footerMiddle{
+        display: none;
+    }
+    .footerinnerContainer{
+        padding: 2rem;
+        width: 96%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .footerinnerContainer li a{
+        font-weight: 300;
+        font-size: 10px;
+    }
+    .footerinnerContainer li{
+        padding-top: 0.1rem;
+    }
+    .footerinnerContainer h3{
+        font-size: 11.03px;
+        font-weight: 500;
+        padding-top: 0;
+        padding-left: 2rem;
+        line-height: 9.7px;
+    }
+    .footerbottom{
+        display: none;
+    }
+    .footerbottomResponsive{
+        display: initial;
+    }
+    .footerbottomResponsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color:  #F64E19;
+        height: fit-content;
+        text-align: center;
+    }
+    .footerIcons img{
+        padding: 0.5rem;
+    }
+    .footerContactImgs{
+        display: flex;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    .footerGooglePlay img{
+        width: 110px;
+        height: 35px;
+    }
+    .footerAppleStore img{
+        width: 110px;
+        height: 48px;
+    }
+    .footerCopyright p{
+        font-size: 8px;
+        font-weight: 400;
+    }
+    .footerIconH p{
+        font-family: Plus Jakarta Sans;
+        font-weight: 600;
+        font-size: 8.82px;
+    }
+    .footerlogo img{
+        width: 69px;
+        height: 18px;
+        padding: 0.4rem;
+    }
+}
+

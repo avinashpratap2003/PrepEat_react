@@ -1,0 +1,66 @@
+.checkContainer{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-evenly;
+    margin-block-start: 1rem;
+}
+.checkInnerContainer{
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #F1F4F8;
+    border-radius: 10px;
+}
+.checkInput{
+    display: flex;
+    flex-direction: row;
+}
+.checkInput button{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    width: 120px;
+    height: 45px;
+    border: 1px solid #FC501A;
+    border-radius: 2rem;
+    background-color: #FC501A;
+    color: white;
+    margin-left: 19rem;
+}
+.checkInput input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #FC501A;
+    border-radius: 2rem;
+    padding-left: 1rem;
+}
+.checkLeft{
+    width: 40%;
+}
+.checkLeft h1{
+    padding-bottom: 1rem;
+    font-size: 42px;
+    font-weight: 600;
+}
+.checkHeading1 span{
+    color: rgba(252, 80, 26, 1);
+}
+.checkLeft h4{
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.checkRight{
+    width: 35%;
+
+}
+
+.checkImg img{
+    padding: 3rem;
+    width: 82%;
+    height: 68%;
+}

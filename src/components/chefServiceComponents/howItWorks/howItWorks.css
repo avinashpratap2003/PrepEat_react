@@ -1,0 +1,217 @@
+.howitworksContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-end: 3rem;
+}
+
+.howitworksInnerContainer{
+    height: fit-content;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.howitworksContainer h2{
+    font-family: Plus Jakarta Sans;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 3rem;
+}
+.howitworksContainer span{
+    font-family: Plus Jakarta Sans;
+    color: 
+    #FC501A;
+}
+.howitworksIconCards{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    top: 0;
+}
+.howitworksIconCard{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.howitworksIconCard img{
+    height: 90px;
+    width: 90px;
+}
+.howitworksIconCard p{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.howItworksDiscountBanner{
+    display: flex;
+
+    height: 336px;
+    width: 85%;
+    background: linear-gradient(94.31deg, rgba(252, 80, 26, 0.79) 0.35%, rgba(252, 80, 26, 0.6004) 100%);
+}
+
+
+.discountBannerImgs{
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.discountBannerText{
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.discountBannerText h3{
+    font-family: Plus Jakarta Sans;
+    font-size: 38px;
+    font-weight: 500;
+    color: white;
+}
+.discountBannerText span{
+    font-weight: 700;
+    color: #403E46;
+}
+.discountBannerText h2{
+    font-family: Plus Jakarta Sans;
+    font-size: 46px;
+    font-weight: 550;
+    color: white;
+    padding-bottom: 1rem;
+}
+.discountBannerText h4{
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    font-weight: 500;
+    color: 
+    #403E46;
+}
+#bannerIcons img{
+    width: 60px;
+    height: 60px;
+}
+.cutlery{
+    position: absolute;
+    left: 36%;
+    top: 35%;
+}
+.strawberry{
+    position: absolute;
+    left: 8%;
+    top: 64%;
+}
+.tacos{
+    position: absolute;
+    left: 18%;
+    top: 32%;
+}
+.chef{
+    position: absolute;
+    left: -1%;
+    top: 43%;
+}
+.fryingPan{
+    position: absolute;
+    left: -11%;
+    top: 25%;
+}
+.avocado{
+    position: absolute;
+    left: -14%;
+    top: 53%;
+}
+.spade{
+    position: absolute;
+    left: 5%;
+    top: 17%;
+}
+.cleaver{
+    position: absolute;
+    left: 32%;
+    top: 14%;
+}
+.icon10{
+    position: absolute;
+    left: -6%;
+    top: 72%;
+}
+.icon11{
+    /* position: absolute; */
+    left: 50%;
+    top: 50%;
+}
+.oldchefImg{
+    padding-top: 15px;
+    padding-left: 51px;
+    overflow: hidden;
+}
+.howitworksIconsCardsResp{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:1040px) {
+    .discountBannerImgs{
+        display: none;
+    }
+    .discountBannerText{
+        width: 100%;
+    }
+    .howItworksDiscountBanner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .howItworksDiscountBanner{
+        height: 220px;
+    }
+    .howItworksDiscountBanner{
+        width: 94%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .discountBannerText h3{
+        font-size: 24px;
+    }
+    .discountBannerText h2{
+        font-size: 25px;
+        padding: 2rem;
+    }
+    .discountBannerText h4{
+        font-size: 20px;
+    }
+    .howitworksIconsCardsResp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    .howitworksIconCard{
+        width: 80%;
+        height: 200px;
+    }
+    .howitworksIconCards{
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+}

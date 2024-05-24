@@ -1,0 +1,40 @@
+.faqsContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faqsInnerContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 3rem;
+}
+.faqsHeading p{
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.faqsSubHeadings li{
+    display: inline;
+    /* padding-right: 3rem; */
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faqsSubHeadings li a{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.questions p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.faqsInnerContainer hr{
+    margin-bottom: 1.5rem;
+}

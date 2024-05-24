@@ -1,0 +1,53 @@
+.occasionsContainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.occasionInnerContainer{
+    width: 94%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.occasionCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.occasionCard img{
+    max-height: 258px;
+    max-width: 286px;
+    width: 100%;
+    height: 100%;
+}
+.occasionCards{
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+.occasionHeading h4{
+    font-weight: 600;
+    font-size: 30px;
+    margin: 3rem;
+}
+
+
+@media screen and (max-width:1040px) {
+    .occasionCards{
+        display: flex;
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    
+    }
+}
