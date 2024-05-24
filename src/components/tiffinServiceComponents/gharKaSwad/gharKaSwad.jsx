@@ -1,6 +1,5 @@
 import React,{useState,useEffect} from "react";
 import './gharKaSwad.css'
-import Pulse from 'react-reveal/Pulse';
 import Mask from '../../../assets/tiffinServices/gharKaSwaadBg.png'
 import Textimg from '../../../assets/tiffinServices/gharKaSwaadText.png'
 import Img from '../../../assets/tiffinServices/gharKaSwaadImg.png'
