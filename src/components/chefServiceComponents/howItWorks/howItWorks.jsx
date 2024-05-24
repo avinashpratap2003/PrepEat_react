@@ -1,8 +1,5 @@
 import React from "react";
 import './howItWorks.css'
-import Slide from 'react-reveal/Slide';
-import Spin from 'react-reveal/Spin';
-import Pulse from 'react-reveal/Pulse';
 import HiwCard1 from '../../../assets/chefService/hiw1.png'
 import HiwCard2 from '../../../assets/chefService/hiw2.png'
 import HiwCard3 from '../../../assets/chefService/hiw3.png'

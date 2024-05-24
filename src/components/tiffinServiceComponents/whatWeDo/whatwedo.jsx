@@ -1,6 +1,5 @@
 import React from "react";
 import './whatwedo.css';
-import Fade from 'react-reveal/Fade';
 import whatwedoImg from '../../../assets/tiffinServices/whatWeDoImg.png'
 const WhatWeDo=()=>{
     return(

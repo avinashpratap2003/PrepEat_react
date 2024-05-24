@@ -1,6 +1,5 @@
 import React from "react";
 import './laundrydetails.css'
-import Fade from 'react-reveal/Fade';
 import laundryImg1 from '../../../assets/laundryService/laundryImg1.png'
 import laundryImg2 from '../../../assets/laundryService/laundryImg2.png'
 import laundryImg3 from '../../../assets/laundryService/laundryImg3.png'

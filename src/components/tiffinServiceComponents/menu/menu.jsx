@@ -1,8 +1,5 @@
 import React from "react";
 import './menu.css'
-import HeadShake from 'react-reveal/HeadShake';
-import Roll from 'react-reveal/Roll';
-import Fade from 'react-reveal/Fade';
 import {BsTelephone} from 'react-icons/bs';
 import {IoLogoWhatsapp} from 'react-icons/io5';
 const Menu=()=>{

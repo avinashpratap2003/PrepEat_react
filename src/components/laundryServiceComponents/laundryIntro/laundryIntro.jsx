@@ -1,9 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import './laundryIntro.css';
 import {TbCurrencyRupee} from 'react-icons/tb'
-import Pulse from 'react-reveal/Pulse';
 import useRipple from 'use-ripple-hook';
-import Rotate from 'react-reveal/Rotate';
 import laundryIntroBg from '../../../assets/laundryService/laundryIntroBg.png'
 import laundryIntroicon1 from '../../../assets/laundryService/laundryIntroIcon1.png'
 import laundryIntroicon2 from '../../../assets/laundryService/laundryIntroIcon2.png'

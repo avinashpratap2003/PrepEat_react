@@ -1,8 +1,5 @@
 import React from "react";
 import './whyChooseUs.css'
-import Fade from 'react-reveal/Fade';
-import Slide from 'react-reveal/Slide';
-import LightSpeed from 'react-reveal/LightSpeed';
 import whychooseus from '../../../assets/chefService/whyChooseUs.png'
 import wcu1 from '../../../assets/chefService/wcu1.png'
 import wcu2 from '../../../assets/chefService/wcu2.png'

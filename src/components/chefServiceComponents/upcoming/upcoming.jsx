@@ -1,6 +1,5 @@
 import React from "react";
 import './upcoming.css';
-import Flip from 'react-reveal/Flip';
 import upcomingImg1 from '../../../assets/chefService/upcomingOccasion1.png'
 import upcomingImg2 from '../../../assets/chefService/upcomingOccasion2.png'
 import upcomingImg3 from '../../../assets/chefService/upcomingOccasion3.png'

@@ -1,7 +1,5 @@
 import React from "react";
 import './hire.css'
-import Pulse from 'react-reveal/Pulse';
-import Bounce from 'react-reveal/Bounce';
 import HireImg from '../../../assets/tiffinServices/chef.png'
 const Hire=()=>{
     return(

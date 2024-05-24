@@ -1,6 +1,4 @@
 import React from "react";
-import Fade from 'react-reveal/Fade';
-import Flip from 'react-reveal/Flip';
 import './booknow.css'
 import laundryDelivery from '../../../assets/laundryService/laundryDelivery.png'
 import hirehomemaker from '../../../assets/laundryService/hireHomemaker.png'

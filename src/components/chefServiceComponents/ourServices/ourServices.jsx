@@ -1,6 +1,5 @@
 import React from "react";
 import './ourServices.css';
-import Roll from 'react-reveal/Roll';
 import ServiceImg1 from '../../../assets/chefService/servicesImg1.png'
 import ServiceImg2 from '../../../assets/chefService/servicesImg2.png'
 import ServiceImg3 from '../../../assets/chefService/servicesImg3.png'

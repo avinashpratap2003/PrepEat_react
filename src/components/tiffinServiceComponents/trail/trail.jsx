@@ -1,6 +1,5 @@
 import React,{useState} from "react";
 import './trail.css'
-import Roll from 'react-reveal/Roll';
 import Tilt from 'react-parallax-tilt'
 import PlateImg from '../../../assets/tiffinServices/plate.png'
 import {BiRupee} from 'react-icons/bi'
