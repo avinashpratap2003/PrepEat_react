@@ -133,8 +133,9 @@
     .welcomebackground{
         display: none;
     }
-    .welcomeImg{
-        display: none;
+    .welcomeImg img{
+        height: 100%;
+        width: 600px;
     }
     .welcomeText p{
         display: none;
@@ -152,7 +153,6 @@
     }
     .welcomeText{
         width: 80%;
-        align-items: flex-start;
     }
     .welcomeBtns{
         display: flex;

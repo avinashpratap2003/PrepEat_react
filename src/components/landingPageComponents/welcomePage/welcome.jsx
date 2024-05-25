@@ -21,6 +21,7 @@ const Welcome=()=>{
     },[]);
     const [ripple1, event1] = useRipple({duration:2000});
     const [ripple2, event2] = useRipple({duration:2000});
+    
     return(
         <div className="welcomeContainer">
             <div className="welcomeInnerContainer">

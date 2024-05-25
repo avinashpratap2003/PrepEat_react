@@ -43,7 +43,6 @@ const Footer=()=>{
                 <div className="footerlogo">
                     <img className="footerlogo" src={logo} alt="" />
                 </div>
-                <p>Copyright © 2020 Healthykitchen. All rights reserved.</p>
                 <div className="footerIcons">
                     <img src={icon1} alt="" />
                     <img src={icon2} alt="" />
@@ -52,9 +51,6 @@ const Footer=()=>{
                 </div>
             </div>
             <div className="footerbottomResponsive">
-                <div className="footerCopyright">
-                    <p>Copyright © 2020 Healthykitchen. All rights reserved.</p>
-                </div>
                 <div className="footerlogo">
                     <img className="footerlogo" src={Footerlogo} alt="" />
                 </div>
