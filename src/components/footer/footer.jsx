@@ -32,7 +32,7 @@ const Footer=()=>{
                 <div className="footerright">
                     <h3>REACH US</h3>
                     <ul>
-                        <li><a href=".">support@healthykitchen.in</a></li>
+                        <li><a href=".">support@prepeatkitchen.in</a></li>
                         <li><a href=".">+91 789-123-5831</a></li>
                         <li><a href=".">+91 213-789-4563</a></li>
 
